@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    height:auto;
+    margin:0;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+}
+
+.image{
+    display: block;
+    width: 750px;/* Width of the Image*/
+    height: 900px;/*Height of the Image*/
+    align-self: center;/*Center Alignment*/
+}
+.line {
+    position: absolute;
+    top:-25px; /* Adjust the top position*/
+    left: 50px; /* Adjust the left position*/
+    font-family: 'Noto Sans', sans-serif;
+    font-size:45px;
+    color: white;
+    text-align: center;
+    mix-blend-mode: overlay;/* For Overlaying the text*/
+}
+
+h2 {
+    position: absolute;
+    bottom:70px; /* Adjust the top position as needed */
+    left:10%; /* Adjust the left position as needed */
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 40px;
+    text-shadow: 15px 1px 15px rgba(255, 255, 255, 20.0), -15px 1px 15px rgba(255, 255, 255, 20.0);
+}
+
+h3{
+    position: absolute;
+    bottom:150px;
+    left: 43%;
+    font-family:'Teko',Sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+p{
+    font-family: 'Teko', sans-serif;
+    position: absolute;
+    bottom: 10px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Teko', sans-serif;
+    position: absolute;
+    bottom:-35px;
+    font-size: 25px;
+    color:white;
+    left:38%;
+    letter-spacing:16px;
+}
+section{
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+    top: 1000px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header{
+    position:absolute;
+    font-size:35px;
+    text-align:center;
+    top:-30px;
+    color:#000;
+}
